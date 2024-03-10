@@ -1,0 +1,38 @@
+.badge {
+  background-color: tomato;
+  width: 18px;
+  height: 18px;
+  border-radius: 9px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 500;
+  font-size: 10px;
+  /* text-align: center; */
+}
+
+.alert-dot {
+  width: 5px;
+  height: 5px;
+  background-color: tomato;
+  border-radius: 3px;
+  position: absolute;
+  top: -9px;
+  right: -7px;
+}
+
+.tooltip {
+  width: 15px;
+  height: 15px;
+  color: tomato;
+  border: 1px solid tomato;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 9px;
+  position: absolute;
+  bottom: 2px;
+  right: 3px;
+}
