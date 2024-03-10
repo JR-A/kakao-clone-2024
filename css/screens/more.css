@@ -1,0 +1,71 @@
+.more-screen .user-component__text {
+  position: relative;
+}
+
+.more-screen .icon_row {
+  /* margin-top: 30px; */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.more-screen .icon_row__icon {
+  width: 130px;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  box-sizing: border-box;
+  transition: color 0.3s ease-in-out;
+  color: rgba(0, 0, 0, 0.6);
+}
+.more-screen .icon_row__icon:hover {
+  cursor: pointer;
+  color: var(--main-color);
+}
+
+.more-suggestions {
+  /* margin-top: 50px; */
+  border-top: var(--main-border);
+  padding-top: 20px;
+}
+.more-suggestions__title {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.more-suggestions__icons {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+.more-suggestions__icon {
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.more-suggestions__icon__img {
+  width: 60px;
+  height: 60px;
+  background-color: var(--main-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15%;
+}
+.more-suggestions__icon__txt {
+  margin-top: 10px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.relative {
+  position: relative;
+}
+.relative .alert-dot {
+  top: 30px;
+  right: 40px;
+}
